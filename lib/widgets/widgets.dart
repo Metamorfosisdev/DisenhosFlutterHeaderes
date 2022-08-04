@@ -6,3 +6,4 @@ export 'package:disehos_one/widgets/header_diagonal_widget.dart';
 export 'package:disehos_one/widgets/header_peak_widget.dart';
 export 'package:disehos_one/widgets/header_square_widget.dart';
 export 'package:disehos_one/widgets/header_waves_widget.dart';
+export 'package:disehos_one/widgets/progress_indicator.dart';
