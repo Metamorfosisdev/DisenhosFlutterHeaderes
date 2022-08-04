@@ -11,9 +11,12 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Disehos',
-      initialRoute: HomeScreen.routeName,
+      initialRoute: CircularProgressScreen.routeName,
       routes: {
         HomeScreen.routeName: (context) => const HomeScreen(),
+        ChallengeScreen.routeName: (context) => const ChallengeScreen(),
+        CircularProgressScreen.routeName: (context) =>
+            const CircularProgressScreen(),
       },
     );
   }
